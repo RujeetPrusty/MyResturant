@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Resturant</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_navigation__drawer">Cuisine</string>
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--For validation-->
+    <string name="UserNameErr">Enter Your Name</string>
+    <string name="UserEmailErr">Enter Valid Email</string>
+    <string name="UserPassErr">Enter Password</string>
+    <string name="UserCnfPassErr">Password do not match</string>
+</resources>

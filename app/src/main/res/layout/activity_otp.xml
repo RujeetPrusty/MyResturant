@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/seefood_background1"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caribbean"
+            android:fontFamily="@font/lobster_regular"
+            android:textSize="70dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/countrycode_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India(+91)"
+            android:fontFamily="@font/lobster_regular"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PhoneNumber"
+            android:layout_marginTop="5dp"
+            app:errorEnabled="true"
+            android:background="@drawable/edit_text_round">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Phone Number"
+                android:inputType="phone"
+                android:textColorHint="@android:color/white"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:drawableRight="@drawable/ic_phone_white_24dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/description_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We will send you an OTP..."
+            android:fontFamily="@font/kaushanscript_regular"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/login_username"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:background="@drawable/edit_text_round">-->
+
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="UserName"-->
+                <!--android:inputType="text"-->
+                <!--android:textColorHint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:drawableRight="@drawable/user_name_image"-->
+                <!--/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/login_password"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/edit_text_round">-->
+
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="Password"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:textColorHint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:drawableRight="@drawable/password_image"-->
+                <!--/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="LOGIN"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/login_registration_button_shape"-->
+            <!--android:layout_marginTop="20dp"/>-->
+       <!--##################################################################-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="25dp">-->
+
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/circle_button"-->
+                <!--android:src="@drawable/facebook_icon"-->
+                <!--android:tint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_margin="5dp"/>-->
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/circle_button"-->
+                <!--android:src="@drawable/twitter_icon"-->
+                <!--android:tint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_margin="5dp"/>-->
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/circle_button"-->
+                <!--android:src="@drawable/google_plus_icon"-->
+                <!--android:tint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_margin="5dp"/>-->
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginBottom="40dp"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Don't have an account ?"-->
+            <!--android:textColor="@android:color/white"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=" Sign Up"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:onClick="signUp"/>-->
+    <!--</LinearLayout>-->
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/Send_otp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        app:fb_text ="Send OTP"
+        app:fb_radius = "24dp"
+        app:fb_defaultColor = "#047654"
+
+        >
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+
+
+</LinearLayout>

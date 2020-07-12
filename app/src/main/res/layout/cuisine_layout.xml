@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/cuisineimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#e1dddd"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/card_background_v1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_editor_absoluteX="132dp"
+        android:background="@drawable/black_gradient" />
+
+    <TextView
+        android:id="@+id/cuisinename"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/kaushanscript_regular"
+        android:gravity="center"
+        android:text="Cuisine Name"
+        android:textColor="#FFFDFDFD"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cuisineimage"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

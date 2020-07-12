@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seefood_background1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caribbean"
+            android:fontFamily="@font/lobster_regular"
+            android:textSize="70dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_username"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edit_text_round">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="UserName"
+                android:inputType="text"
+                android:textColorHint="@android:color/white"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:drawableRight="@drawable/user_name_image"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_round">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@android:color/white"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:drawableRight="@drawable/ic_mail_black_24dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/register_password"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/edit_text_round"-->
+            <!--fancy:passwordToggleEnabled="true">-->
+
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="Password"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:textColorHint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_marginTop="30dp"-->
+
+                <!--/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/register_confirmpassword"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:background="@drawable/edit_text_round">-->
+
+            <!--<android.support.design.widget.TextInputEditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="Confirm Password"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:textColorHint="@android:color/white"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--/>-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/create_account"
+            app:fb_text ="Create Account"
+            app:fb_radius = "24dp"
+            app:fb_defaultColor = "#047654"
+            >
+        </mehdi.sakout.fancybuttons.FancyButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="By creating account,I agree to Caribbean's"
+            android:fontFamily="@font/kaushanscript_regular"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TnC and Privecy Policy"
+            android:fontFamily="@font/kaushanscript_regular"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            />
+
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="REGISTER"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/login_registration_button_shape"-->
+            <!--android:layout_marginTop="20dp"/>-->
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="40dp"-->
+        <!--android:gravity="center">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Do you have an account ?"-->
+            <!--android:textColor="@android:color/white"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=" Login"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:onClick="logIn"/>-->
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

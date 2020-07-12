@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8_home_64"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icons8_user_50"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/icons8_delivery_50"
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_tablebooking"
+            android:icon="@drawable/icons8_tablebooking_50"
+            android:title="Table Booking" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/icons8_shopping_cart_50"
+            android:title="Cart" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/icons8_contact_us_50"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/icons8_feedback_50"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/icons8_sign_out_filled_50"
+                android:title="SignOut" />
+        </menu>
+    </item>
+
+</menu>
